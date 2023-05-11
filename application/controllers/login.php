@@ -27,8 +27,9 @@ class login extends CI_Controller
         $NIM = $this->input->post('NIM');
         $umur = $this->input->post('umur');
 
-        if(umur =<)
 
+
+        
         $blade = new blade(VIEWPATH, APPth ,'chace');
         echo $blade->make('from', [])->render();
 
